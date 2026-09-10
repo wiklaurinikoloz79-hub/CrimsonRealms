@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "name": "Crimson Realms Pause Menu",
+  "width": 1024,
+  "height": 768,
+  "background": {
+    "type": "blurred",
+    "blur": 5,
+    "overlay": "#000000",
+    "overlayOpacity": 0.5
+  },
+  "elements": [
+    {
+      "type": "text",
+      "x": 512,
+      "y": 100,
+      "text": "GAME PAUSED",
+      "fontSize": 48,
+      "color": "#ff4444",
+      "shadow": true,
+      "centered": true,
+      "fontBold": true
+    },
+    {
+      "type": "button",
+      "x": 412,
+      "y": 250,
+      "width": 200,
+      "height": 40,
+      "text": "Back to Game",
+      "color": "#cc0000",
+      "hoverColor": "#ff0000",
+      "action": "resume"
+    },
+    {
+      "type": "button",
+      "x": 412,
+      "y": 310,
+      "width": 200,
+      "height": 40,
+      "text": "Settings",
+      "color": "#cc0000",
+      "hoverColor": "#ff0000",
+      "action": "options"
+    },
+    {
+      "type": "button",
+      "x": 412,
+      "y": 370,
+      "width": 200,
+      "height": 40,
+      "text": "Main Menu",
+      "color": "#cc0000",
+      "hoverColor": "#ff0000",
+      "action": "mainmenu"
+    }
+  ]
+}
